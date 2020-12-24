@@ -42,7 +42,7 @@
 ## How to use
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
   2. Clone this repository, copy and paste "EFI" directory onto your USB drive.
-  3. [**Set up SMBIOS and MAC address info**](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo).  
+  3. [**Set up SMBIOS and MAC address info**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial).  
   4. Set BIOS settings according to the [**guide**](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#intel-bios-settings).  
   5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb).
 
