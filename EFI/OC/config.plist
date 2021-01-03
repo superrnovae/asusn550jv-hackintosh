@@ -466,7 +466,7 @@
 				<key>Comment</key>
 				<string>change Method(_Q0E,0,N) to XQ0E, pair with SSDT-FN.aml</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -492,7 +492,7 @@
 				<key>Comment</key>
 				<string>change Method(_Q0F,0,N) to XQ0F, pair with SSDT-FN.aml</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
