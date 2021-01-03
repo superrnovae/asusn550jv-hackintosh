@@ -37,7 +37,7 @@
 ## Issues
  - Fn + F9 doesn't work
  - Card Reader doesn't work
- - Cursor jumps to top corner when touched by 2 fingers
+ - Cursor jumps to top corner on double touch
 
 ## How to use
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
