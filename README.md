@@ -1,17 +1,17 @@
-**macOS version:** 11.1
+**macOS version:** 10.8 - 11.2
 
-**OpenCore version**: [0.6.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.5)
+**OpenCore version**: [0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6)
 
 ## Specifications
 | **Component** | **Model** |
 | ------------- | ------------- |
-| CPU | Intel Core™ i7  4700HQ  Processor |
-| iGPU | Intel HD Graphics 4600 |
-| dGPU | NVIDIA GeForce® GT 750M |
+| CPU | i7  4700HQ  Processor |
+| iGPU | HD 4600 |
+| dGPU | NVIDIA GT 750M |
 | RAM | 16 GB DDR3L 1600 MHz |
-| STORAGE | SAMSUNG 840 EVO 250GB |
+| STORAGE | SAMSUNG 840 EVO |
 | WLAN CHIPSET | Broadcom BCM94352 |
-| LAN CHIPSET | Realtek RTL8168/8111 Gigabit-LAN |
+| LAN CHIPSET | RTL8168 Gigabit-LAN |
 | BLUETOOTH | BT 4.0 |
 | AUDIO CHIPSET | Realtek ALC668 |
 
@@ -40,20 +40,26 @@
  - Cursor jumps to top corner on double touch
 
 ## How to use
+
+This repository is primarily meant to be used as a reference. It is advised to [**follow the official guide**](https://dortania.github.io/OpenCore-Install-Guide/), that in details explains the process of creating a bootable USB to installing macOS and finally fixing issues that have occurred during or post-install phase.
+
+In case one may not want to spend time following the guide, one may proceed as follows:
+
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
   2. Clone this repository, copy and paste "EFI" directory onto your USB drive.
-  3. [**Set up SMBIOS and MAC address info**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial).  
+  3. [**Generate SMBIOS for MacBookPro11,2**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) and [**fix ROM**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-rom).  
   4. Set BIOS settings according to the [**guide**](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#intel-bios-settings).  
-  5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb).
+  5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb). 
 
 ## Other Guides
-**If you have any problems with installation or booting your macOS, kernel panics or another system related issues check OC configuration guide**  
-**If something else isn't working properly (for example USB ports, iServices, DRM/Netflix) check Post-Install guide**
- - [Post-Install](https://dortania.github.io/OpenCore-Post-Install/)
- - [Multiboot](https://dortania.github.io/OpenCore-Post-Install/#multiboot)
- - [Troubleshooting](https://dortania.github.io/OpenCore-Post-Install/)
- - [ACPI Patching](https://dortania.github.io/Getting-Started-With-ACPI/)
- - [USB Mapping](https://dortania.github.io/OpenCore-Post-Install/usb/)
+
+In case you are experiencing issues during installation or boot, kernel panics or another system related issues — check OC configuration guide  
+
+- [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
+- [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
+- [**Troubleshooting**](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
+- [**Fixing iServices**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+- [**ACPI Patching**](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 If you have any other questions or issues, feel free to ask on [**Hackintosh Discord**](https://discord.com/invite/Wxam8aH) or [**Forum**](https://www.insanelymac.com/forum/)  
 
