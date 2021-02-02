@@ -53,7 +53,7 @@ In case one may not want to spend time following the guide, one may proceed as f
 
 ## Other Guides
 
-In case you are experiencing issues during installation or boot, kernel panics or another system related issues — check OC configuration guide  
+In case you are experiencing issues during installation or boot, kernel panics or other system related issues — check OC configuration guide  
 
 - [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
 - [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
