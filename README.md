@@ -1,6 +1,6 @@
-**macOS version:** 10.8 - 11.2
+**macOS version:** 10.8 - 11.2.2
 
-**OpenCore version**: [0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6)
+**OpenCore version**: [0.6.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7)
 
 ## Specifications
 | **Component** | **Model** |
@@ -41,9 +41,9 @@
 
 ## How to use
 
-This repository is primarily meant to be used as a reference. It is advised to [**follow the official guide**](https://dortania.github.io/OpenCore-Install-Guide/), that in details explains the process of creating a bootable USB to installing macOS and finally fixing issues that have occurred during or post-install phase.
+This repository is meant to be used as a reference. I recommend you [**follow the official guide**](https://dortania.github.io/OpenCore-Install-Guide/), that in details explains the process of creating a bootable USB to installing macOS and finally fixing issues that have occurred during install or post-install phase.
 
-In case one may not want to spend time following the guide, one may proceed as follows:
+In case you don't have enough time to read the docs, proceed as follows:
 
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
   2. Clone this repository, copy and paste "EFI" directory onto your USB drive.
@@ -53,7 +53,7 @@ In case one may not want to spend time following the guide, one may proceed as f
 
 ## Other Guides
 
-In case you are experiencing issues during installation or boot, kernel panics or other system related issues — check OC configuration guide  
+In case you are experiencing issues during installation or boot, kernel panics or other system related issues — check OC configuration guides:  
 
 - [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
 - [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
@@ -68,4 +68,4 @@ If you have any other questions or issues, feel free to ask on [**Hackintosh Dis
 - [**acidanthera**](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [AppleALC](https://github.com/acidanthera/AppleALC), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [CPUFriend](https://github.com/acidanthera/CPUFriend), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - [**hieplpvip**](https://github.com/hieplpvip) for [AsusSMC](https://github.com/hieplpvip/AsusSMC) and [AppleBacklightSmoother](https://github.com/hieplpvip/AppleBacklightSmoother)
 - [**Mieze**](https://github.com/Mieze) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-- [**dortania**](https://github.com/dortania) for documentation
+- [**dortania**](https://github.com/dortania) for amazing [documentation](https://dortania.github.io/OpenCore-Install-Guide/)
