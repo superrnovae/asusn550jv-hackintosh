@@ -1,6 +1,6 @@
-**macOS version:** 10.8 - 11.2.2
+**macOS version:** 10.8 - 11.2.3
 
-**OpenCore version**: [0.6.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7)
+**OpenCore version**: [0.6.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8)
 
 ## Specifications
 | **Component** | **Model** |
