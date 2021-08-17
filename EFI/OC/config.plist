@@ -1133,13 +1133,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>SidecarFixup.kext</string>
+				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SidecarFixup</string>
+				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
@@ -1719,6 +1719,8 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
