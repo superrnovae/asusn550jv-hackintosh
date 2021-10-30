@@ -1,6 +1,6 @@
-**macOS version:** 10.8 - 11.5.2
+**macOS version:** 10.8 - 11.6.1
 
-**OpenCore version**: [0.7.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2)
+**OpenCore version**: [0.7.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.4)
 
 ## Specifications
 | **Component** | **Model** |
@@ -22,7 +22,7 @@
 - WiFi/Ethernet
 - Bluetooth/USB
 - Keyboard backlight
-- Fn keys (except Fn + F9)
+- Fn keys
 - Battery Readings
 - Sleep
 - Trackpad
@@ -32,15 +32,13 @@
 - iServices
 
 ## Issues
- - Fn + F9 doesn't work
- - Card Reader doesn't work
- - Cursor jumps to top corner on double touch
+- HDMI/DP audio works only after wake from sleep.
 
 ## How to use
 
   1. [**Create bootable USB**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  
   2. Clone this repository, copy and paste the "EFI" directory onto your USB drive.
-  3. [**Generate SMBIOS for MacBookPro11,2**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) and [**fix ROM**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-rom).  
+  3. [**Generate SMBIOS for MacBookPro11,3**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) and [**fix ROM**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-rom).  
   4. Set BIOS settings according to the [**guide**](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#intel-bios-settings).  
   5. [**Install macOS**](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb). 
 
