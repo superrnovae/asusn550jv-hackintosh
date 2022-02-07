@@ -1,6 +1,6 @@
-**macOS version:** 10.8 - 11.6.1
+**macOS version:** 10.8 - 12.2
 
-**OpenCore version**: [0.7.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.4)
+**OpenCore version**: [0.7.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8)
 
 ## Specifications
 | **Component** | **Model** |
@@ -32,7 +32,7 @@
 - iServices
 
 ## Issues
-- HDMI/DP audio works only after wake from sleep.
+- HDMI/DP audio works inconsistently.
 
 ## How to use
 
@@ -46,7 +46,8 @@
 
 In case you are experiencing issues during installation or boot, kernel panics or other system related issues — check OC configuration guides:  
 
-- [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#table-of-contents)
+- [**OpenCore and Big Sur**](https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/)
+- [**OpenCore and Monterey**](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html)
 - [**Post-Install**](https://dortania.github.io/OpenCore-Post-Install/)
 - [**Troubleshooting**](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)
 - [**Fixing iServices**](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
